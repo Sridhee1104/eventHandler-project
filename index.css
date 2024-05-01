@@ -1,0 +1,29 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#counter{
+    background-color: rgb(204, 178, 178);
+    height: 50vh;
+    width: 50vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(10, 18, 26);
+}
+button{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(9, 9, 56);
+    color: rgb(154, 219, 219);
+    border-radius: 20px;
+}
+
+#counter p{
+    font-size: 48px;
+}
